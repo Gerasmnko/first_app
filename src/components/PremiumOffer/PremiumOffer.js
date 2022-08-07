@@ -13,11 +13,11 @@ export default function PremiumOffer() {
         </div>
       </div>
       <div className="rightpart">
-        <div className="text8">Premium offer</div>
+        <div className="text8">Premium offer task 1</div>
         <div className="text9">Get our Coffee Magazine</div>
         <div className="text10">
           The most versatile furniture system ever created. Designed to fit your
-          life.
+          life and so on.
         </div>
         <form action="#">
           <button className="button2" type="submit">
