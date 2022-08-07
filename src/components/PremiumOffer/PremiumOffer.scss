@@ -1,0 +1,97 @@
+.premOffer {
+  max-width: 940px;
+  width: 100%;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px 0 130px;
+
+  .leftpart {
+    max-width: 460px;
+    width: 100%;
+    height: 280px;
+    display: flex;
+
+    justify-content: space-between;
+  }
+  .note {
+    flex: 0 1 50%;
+    background: url("~/public/images/note.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 280px;
+    width: 100%;
+    height: 280px;
+  }
+
+  .upbot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .upcup {
+    background: url("~/public/images/upcup.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 160px;
+    width: 100%;
+    height: 130px;
+  }
+
+  .bottomcup {
+    background: url("~/public/images/bottomcup.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 160px;
+    width: 100%;
+    height: 130px;
+  }
+
+  .rightpart {
+    max-width: 460px;
+    width: 100%;
+    height: 272px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .text8 {
+    color: #1d1f2e;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 6px 40px 6px 60px;
+  }
+
+  .text9 {
+    padding: 6px 40px 6px 60px;
+    color: #1d1f2e;
+    font-size: 36px;
+    line-height: 1.5;
+  }
+
+  .text10 {
+    padding: 6px 90px 6px 60px;
+    color: #1d1f2e;
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .button2 {
+    background-color: #1d1f2e;
+    padding: 9px 24px;
+    margin: 6px 60px;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    box-shadow: 0px 2px 6px rgba(29, 31, 46, 0.1);
+    border-radius: 0px;
+  }
+}

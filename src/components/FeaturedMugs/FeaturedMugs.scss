@@ -1,0 +1,33 @@
+.featuredMugs {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 960px;
+  width: 100%;
+  height: 654px;
+  margin: 100px 0;
+
+  .fon1 {
+    background: url("~/public/images/fon1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 460px;
+    width: 100%;
+    height: 540px;
+  }
+
+  .fon2 {
+    background: url("~/public/images/fon2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 460px;
+    width: 100%;
+    height: 540px;
+  }
+
+  .del {
+    opacity: 0.4;
+  }
+}

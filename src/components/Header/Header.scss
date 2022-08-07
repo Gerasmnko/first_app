@@ -1,0 +1,81 @@
+.header {
+  max-width: 940px;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding: 0 20px;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+
+  .logo {
+    min-width: 112px;
+    height: 24px;
+    background: url("~/public/images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .profile {
+    color: #1d1f2e;
+    text-transform: uppercase;
+    padding: 0 8px;
+    position: relative;
+  }
+
+  .profile:after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    width: 90px;
+    height: 1px;
+    background-color: #a25f4b;
+    opacity: 0.3;
+    left: -15px;
+  }
+
+  .links {
+    display: flex;
+    gap: 30px;
+  }
+
+  .link {
+    list-style: none;
+    color: #1d1f2e;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .link:hover {
+    text-decoration: underline;
+    color: #000000;
+  }
+
+  .ending {
+    max-width: 92px;
+    height: 26px;
+    display: flex;
+    padding: 0 0 0 30px;
+    align-items: center;
+    margin: 0 0 0 20px;
+    width: 100%;
+  }
+
+  .imgbag {
+    min-width: 16px;
+    height: 20px;
+    background: url("~/public/images/bag.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .imgzero {
+    min-width: 20px;
+    height: 18px;
+    background: url("~/public/images/zero.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
